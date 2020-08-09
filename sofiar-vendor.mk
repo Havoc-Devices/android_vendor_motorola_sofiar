@@ -31,16 +31,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sofiar/proprietary/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.motorola.androidx.camera.extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.androidx.camera.extensions.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.motorola.camera2.content.ai.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.camera2.content.ai.xml \
-    vendor/motorola/sofiar/proprietary/etc/permissions/com.motorola.camera2.logan.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.camera2.logan.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.motorola.dolby.dolbyui.features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.dolby.dolbyui.features.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.frameworks.core.addon.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.location.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
-    vendor/motorola/sofiar/proprietary/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/izat.xt.srv.xml \
-    vendor/motorola/sofiar/proprietary/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/privapp-permissions-com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/privapp-permissions-com.qualcomm.qcrilmsgtunnel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.qualcomm.qcrilmsgtunnel.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
@@ -250,7 +247,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sofiar/proprietary/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so \
     vendor/motorola/sofiar/proprietary/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so \
     vendor/motorola/sofiar/proprietary/usr/idc/uinput-egis.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/uinput-egis.idc \
-    vendor/motorola/sofiar/proprietary/usr/keylayout/uinput-egis.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-egis.kl
+    vendor/motorola/sofiar/proprietary/usr/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/uinput-fpc.idc \
+    vendor/motorola/sofiar/proprietary/usr/keylayout/uinput-egis.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-egis.kl \
+    vendor/motorola/sofiar/proprietary/usr/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fpc.kl
 
 PRODUCT_PACKAGES += \
     MotoDolbyV3 \
@@ -265,13 +264,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.dolby.daxservice.xml \
+    vendor/motorola/sofiar/proprietary/product/etc/permissions/com.motorola.camera2.logan.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera2.logan.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/com.motorola.imager.access.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.imager.access.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/com.motorola.imager.lake.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.imager.lake.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml \
+    vendor/motorola/sofiar/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/embms-noship_product_privapp_permissions_qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/embms-noship_product_privapp_permissions_qti.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/embms.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/embms.xml \
+    vendor/motorola/sofiar/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/privapp-permissions-com.motorola.imagertuning_lake.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.imagertuning_lake.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/privapp-permissions-com.motorola.moto.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.moto.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/privapp-permissions-com.motorola.omadm.vzw.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.omadm.vzw.xml \
