@@ -254,7 +254,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     MotoDolbyV3 \
     MotoSignatureApp \
-    com.qualcomm.location \
     com.motorola.androidx.camera.extensions \
     com.motorola.frameworks.core.addon \
     com.motorola.motosignature \
