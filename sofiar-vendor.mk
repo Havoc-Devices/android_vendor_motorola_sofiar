@@ -145,7 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sofiar/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
     vendor/motorola/sofiar/proprietary/lib/libOpenCL_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOpenCL_system.so \
     vendor/motorola/sofiar/proprietary/lib/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libadsprpc_system.so \
-    vendor/motorola/sofiar/proprietary/lib/libbluetooth_qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbluetooth_qti.so \
     vendor/motorola/sofiar/proprietary/lib/libcdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcdsprpc_system.so \
     vendor/motorola/sofiar/proprietary/lib/libeye_tracking_dsp_sample_stub.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libeye_tracking_dsp_sample_stub.so \
     vendor/motorola/sofiar/proprietary/lib/libframeextension.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libframeextension.so \
@@ -203,8 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sofiar/proprietary/lib64/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libadsprpc_system.so \
     vendor/motorola/sofiar/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/motorola/sofiar/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
-    vendor/motorola/sofiar/proprietary/lib64/libbluetooth_qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbluetooth_qti.so \
-    vendor/motorola/sofiar/proprietary/lib64/libbtconfigstore.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbtconfigstore.so \
     vendor/motorola/sofiar/proprietary/lib64/libcdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcdsprpc_system.so \
     vendor/motorola/sofiar/proprietary/lib64/libframeextension.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libframeextension.so \
     vendor/motorola/sofiar/proprietary/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblocationservice_jni.so \
