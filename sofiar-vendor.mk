@@ -530,4 +530,5 @@ PRODUCT_PACKAGES += \
     UxPerformance \
     QPerformance \
     FMRadioService \
-    FMPlayer
+    FMPlayer \
+    MotoStylus
