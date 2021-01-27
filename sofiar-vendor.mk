@@ -246,7 +246,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sofiar/proprietary/usr/idc/uinput-egis.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/uinput-egis.idc \
     vendor/motorola/sofiar/proprietary/usr/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/uinput-fpc.idc \
     vendor/motorola/sofiar/proprietary/usr/keylayout/uinput-egis.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-egis.kl \
-    vendor/motorola/sofiar/proprietary/usr/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fpc.kl
+    vendor/motorola/sofiar/proprietary/usr/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fpc.kl \
+    vendor/motorola/sofiar/proprietary/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfm-hci.so \
+    vendor/motorola/sofiar/proprietary/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/fm_helium.so
 
 PRODUCT_PACKAGES += \
     MotoDolbyV3 \
@@ -526,4 +528,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency-V2.0-java \
     vendor.qti.voiceprint-V1.0-java \
     UxPerformance \
-    QPerformance
+    QPerformance \
+    FMRadioService \
+    FMPlayer
