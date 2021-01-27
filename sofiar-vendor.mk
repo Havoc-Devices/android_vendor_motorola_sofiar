@@ -257,8 +257,8 @@ PRODUCT_PACKAGES += \
     com.motorola.frameworks.core.addon \
     com.motorola.motosignature \
     com.qti.snapdragon.sdk.display \
+    qcom-moto-telephony-ext \
     vendor.egistec.hardware.fingerprint-V2.0-java
-
 PRODUCT_COPY_FILES += \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.dolby.daxservice.xml \
@@ -531,9 +531,4 @@ PRODUCT_PACKAGES += \
     QPerformance \
     FMRadioService \
     FMPlayer \
-    MotoStylus \
-    moto-settings \
-    moto-ims-ext \
-    moto-telephony \
-    qcom-moto-ims-ext \
-    qcom-moto-telephony-ext
+    MotoStylus
