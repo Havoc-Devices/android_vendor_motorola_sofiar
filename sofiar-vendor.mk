@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sofiar/proprietary/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.motorola.androidx.camera.extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.androidx.camera.extensions.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.motorola.camera2.content.ai.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.camera2.content.ai.xml \
-    vendor/motorola/sofiar/proprietary/etc/permissions/com.motorola.dolby.dolbyui.features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.dolby.dolbyui.features.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.frameworks.core.addon.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
@@ -251,7 +250,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sofiar/proprietary/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/fm_helium.so
 
 PRODUCT_PACKAGES += \
-    MotoDolbyV3 \
     MotoSignatureApp \
     com.motorola.androidx.camera.extensions \
     com.motorola.frameworks.core.addon \
@@ -261,7 +259,6 @@ PRODUCT_PACKAGES += \
     vendor.egistec.hardware.fingerprint-V2.0-java
 PRODUCT_COPY_FILES += \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
-    vendor/motorola/sofiar/proprietary/product/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.dolby.daxservice.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/com.motorola.camera2.logan.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera2.logan.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/com.motorola.imager.access.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.imager.access.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/com.motorola.imager.lake.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.imager.lake.xml \
@@ -495,7 +492,6 @@ PRODUCT_PACKAGES += \
     uimgbaservice \
     VzwDM \
     atfwd \
-    daxService \
     ims \
     qcrilmsgtunnel \
     vzwPcoExt \
